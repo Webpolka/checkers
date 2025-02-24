@@ -4782,6 +4782,11 @@ body {
   gap: 1rem;
   z-index: 15;
 }
+@media (max-width: 576px) {
+  .menu {
+    top: 39%;
+  }
+}
 .menu button {
   display: block;
   padding: 1rem;
